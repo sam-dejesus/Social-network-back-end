@@ -35,15 +35,13 @@ const UserController ={
   },
 
   // Delete user
-  deleteUserById(req, res) {
-    User.findOneAndDelete(req.params.id)
-      .then(userData => {
-        if (!userData) {
-          return res.status(404).json({ message: 'User not found' });
-        }
-        res.json({ message: 'User deleted successfully' });
-      })
-      .catch(err => res.status(500).json(err));
+  async deleteUserById(req, res) {
+    try {
+      const user = await User.findByIdAndDelete({_id:req.params.userId});
+      res.status(200).json(user);
+  } catch (err) {
+      res.status(500).json(err);
+  }
   },
 }
 
