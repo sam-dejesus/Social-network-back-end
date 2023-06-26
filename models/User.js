@@ -1,7 +1,7 @@
+// imports from mongoose
 const { Schema, model} = require('mongoose'); 
 
-
-
+// user model blueprint being created from Schema
 const userSchema = new Schema(
     {
         username:{
@@ -39,7 +39,7 @@ const userSchema = new Schema(
       toJSON: {
         virtuals: true, // enables virtual properties to be displayed when a user document is transformed into JSON format
       },
-      id: false,
+      id: false, // disables the '_id' field in the User model 
     }
 )
 
