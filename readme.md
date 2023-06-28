@@ -5,7 +5,7 @@ The purpose of this Node.js application is to showcase the power and flexibility
 
 ## Usage
 
- To use this application the user must first have node, Insomnia, and code editor installed. once the user has met these requirements and has cloned the repo they must open the projects terminal and write npm i to install the dependencies. and finally node server.js to start the server. after that the user may go into Insomnia and begin to preform C.R.U.D operations. If the user wants more information of the project they can look at the comments in the project explaining the code. here is a link to the demo click [here]()
+ To use this application the user must first have node, Insomnia, and code editor installed. once the user has met these requirements and has cloned the repo they must open the projects terminal and write npm i to install the dependencies. and finally node server.js to start the server. after that the user may go into Insomnia and begin to preform C.R.U.D operations. If the user wants more information of the project they can look at the comments in the project explaining the code. here is a link to the demo click [here](https://drive.google.com/file/d/1KBNRHmjOck8Guk1THne5yq-zSS4JZOM7/view)
  here are some sample images of the application running in Insomnia
 
  ## Installations
